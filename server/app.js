@@ -22,9 +22,6 @@ app.use('/customer',customerrouter)
 const soldpropertyrouter = require('./routes/soldproperty')
 app.use('/soldproperty',soldpropertyrouter)
 
-const payrouter = require('./routes/payment')
-app.use('/payment',payrouter)
-
 const rentrouter = require('./routes/rentproperty')
 app.use('/rentproperty',rentrouter)
 
