@@ -92,13 +92,13 @@ router.post("/Email",(req,res)=>{
 let mailTransporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'vatsalvasani22882@gmail.com',
-        pass: 'cotkijgcycppmhth'
+        user: 'YOUR EMAIL',
+        pass: 'YOUR APP PASSWORD'
     }
 });
  
 let mailDetails = {
-    from: 'vatsalvasani22882@gmail.com',
+    from: 'YOUR EMAIL',
     to: req.body.to,
     subject: req.body.subject,
     html:`
